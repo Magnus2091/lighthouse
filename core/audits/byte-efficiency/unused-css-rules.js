@@ -27,7 +27,8 @@ class UnusedCSSRules extends ByteEfficiencyAudit {
   /**
    * @return {LH.Audit.Meta}
    */
-  static get meta() {
+  static get 
+  meta() {
     return {
       id: 'unused-css-rules',
       title: str_(UIStrings.title),
